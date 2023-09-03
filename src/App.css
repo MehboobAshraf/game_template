@@ -78,7 +78,14 @@
 }
 
 .box_container {
-  background: url(../src/assets/Rectangle.jpg), lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+    to right,
+    #fcefe9 0%,
+    21.292775869369507%,
+    #e9e8e9 42.585551738739014%,
+    71.2927758693695%,
+    #dad9e7 100%
+  );
   padding: 20px 0;
 }
 
@@ -100,10 +107,10 @@
   text-align: center;
   font-weight: 900;
 }
-.box_container  .row:nth-of-type(2){
+.box_container .row:nth-of-type(2) {
   padding: 30px 0 50px 0;
 }
-.box_container  .row:nth-of-type(2) .content {
+.box_container .row:nth-of-type(2) .content {
   right: 0;
   left: 0;
 }
@@ -111,7 +118,7 @@
 .box_container .small-box .col-lg-4 {
   margin-bottom: 25px;
 }
-.box_container  .col-md-12 img {
+.box_container .col-md-12 img {
   width: 100%;
 }
 .box_container .large-box {
@@ -121,10 +128,23 @@
 
 @media screen and (max-width: 767px) {
   .layer {
-    width: 100%;
-    margin-bottom: 30px;
+    width: 60%;
+    margin: auto;
   }
-  .box_container .col-xs-6 img{
-    width: 100%;
+  .reverse {
+    flex-direction: row-reverse;
   }
+  .box_container .large-box {
+    width: 100%;
+    float: none;
+  }
+  .mb-xs-4 {
+    margin-bottom: 20px;
+  }
+  .navbar .navbar-left {
+    display: none !important;
+  }
+}
+.rectangle img {
+  width: 100%;
 }

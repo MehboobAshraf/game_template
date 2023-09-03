@@ -100,40 +100,42 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-7 col-md-6 col-xs-6">
-                <div className="small-box row">
-                  <div className="col-lg-4 col-md-6 col-xs-6">
-                    <img src="src/assets/goldframe_10.svg" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
-                    <img src="src/assets/goldframe_10.svg" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
-                    <img src="src/assets/goldframe_10.svg" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
-                    <img src="src/assets/goldframe_10.svg" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
-                    <img src="src/assets/goldframe_10.svg" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
-                    <img src="src/assets/goldframe_10.svg" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
-                    <img src="src/assets/goldframe_10.svg" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
-                    <img src="src/assets/goldframe_10.svg" alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
-                    <img src="src/assets/goldframe_10.svg" alt="" />
+          <div className="container rectangle">
+            <div className="row reverse">
+              <div className="col-lg-7 col-md-6 col-xs-12">
+                <div className="container-fluid">
+                  <div className="small-box row">
+                    <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
+                      <img src="src/assets/goldframe_10.svg" alt="" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
+                      <img src="src/assets/goldframe_10.svg" alt="" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
+                      <img src="src/assets/goldframe_10.svg" alt="" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
+                      <img src="src/assets/goldframe_10.svg" alt="" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
+                      <img src="src/assets/goldframe_10.svg" alt="" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
+                      <img src="src/assets/goldframe_10.svg" alt="" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
+                      <img src="src/assets/goldframe_10.svg" alt="" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
+                      <img src="src/assets/goldframe_10.svg" alt="" />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
+                      <img src="src/assets/goldframe_10.svg" alt="" />
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5 col-md-6 col-xs-6">
+              <div className="col-lg-5 col-md-6 col-xs-12">
                 <img
                   className="large-box"
                   src="src/assets/SQUAREGOLDFRAME_1.svg"
@@ -142,29 +144,31 @@ function App() {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-5 col-md-6 col-xs-6">
+              <div className="col-lg-5 col-md-6 col-xs-6 mb-sm-4 mb-xs-4">
                 <img className="" src="src/assets/goldframe-21.png" alt="" />
               </div>
               <div className="col-lg-7 col-md-6 col-xs-6">
+                <div className="container-fluid">
                 <div className="small-box row">
-                  <div className="col-lg-4 col-md-6 col-xs-6">
+                  <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
                     <img src="src/assets/goldframe_10.svg" alt="" />
                   </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
+                  <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
                     <img src="src/assets/goldframe_10.svg" alt="" />
                   </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
+                  <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
                     <img src="src/assets/goldframe_10.svg" alt="" />
                   </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
+                  <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
                     <img src="src/assets/goldframe_10.svg" alt="" />
                   </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
+                  <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
                     <img src="src/assets/goldframe_10.svg" alt="" />
                   </div>
-                  <div className="col-lg-4 col-md-6 col-xs-6">
+                  <div className="col-lg-4 col-md-6 col-xs-6 col-sm-6">
                     <img src="src/assets/goldframe_10.svg" alt="" />
                   </div>
+                </div>
                 </div>
               </div>
             </div>
