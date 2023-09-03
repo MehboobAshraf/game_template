@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("MyFont"), url(../src/assets/Montserrat-Bold.ttf) format("woff");
+}
 #root {
   width: 100%;
   height: 100vh;
@@ -15,4 +19,112 @@
 .navbar-brand {
   padding: 0 !important;
   margin: 0 !important;
+}
+.navbar-left {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  padding-right: 30px;
+  gap: 15px;
+}
+.navbar-left span {
+  margin: 0;
+  vertical-align: middle;
+  line-height: 40px;
+}
+.navbar-left .btn {
+  background: #ce9400;
+  color: #fff;
+  border-radius: 50px;
+  height: 35px;
+  line-height: 20px;
+  padding: 0 30px;
+}
+.navbar-left .btn:hover,
+.navbar-left .btn:active {
+  background: #ce9400 !important;
+}
+.header {
+  padding: 20px 0;
+  background: linear-gradient(
+    180deg,
+    #1c1c1c 0%,
+    rgba(28, 28, 28, 0.68) 67.71%,
+    rgba(28, 28, 28, 0) 100%
+  );
+}
+
+.layer {
+  width: 300px;
+}
+.layer .heading {
+  width: 100px;
+  margin: auto;
+}
+.layer img {
+  width: 100%;
+}
+.dark_border {
+  height: 75px;
+  border-top: 2px solid #bf8f41;
+  border-bottom: 2px solid #bf8f41;
+  background: #1d1d1d;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.box_container {
+  background: url(../src/assets/Rectangle.jpg), lightgray 50% / cover no-repeat;
+  padding: 20px 0;
+}
+
+.box_container .item {
+  position: relative;
+}
+.box_container .heading {
+  background: linear-gradient(180deg, #f00 19.83%, rgba(255, 0, 0, 0) 90.01%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box_container .content {
+  position: absolute;
+  top: 35px;
+  font-weight: bold;
+}
+.box_container .content p {
+  text-align: center;
+  font-weight: 900;
+}
+.box_container  .row:nth-of-type(2){
+  padding: 30px 0 50px 0;
+}
+.box_container  .row:nth-of-type(2) .content {
+  right: 0;
+  left: 0;
+}
+
+.box_container .small-box .col-md-12 {
+  margin-bottom: 25px;
+}
+.box_container  .col-md-12 img {
+  width: 100%;
+}
+.box_container .large-box {
+  width: 90%;
+  float: right;
+}
+
+@media screen and (max-width: 767px) {
+  .layer {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .box_container .col-xs-6 img{
+    width: 100%;
+  }
 }

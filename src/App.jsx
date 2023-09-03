@@ -1,5 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
+import user_icon from "./assets/user_icon.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -17,28 +18,159 @@ function App() {
             alt="logo"
           />
         </a>
-        
+        <div className="navbar-left d-flex">
+          <img src={user_icon} alt="" />
+          <span>USERNAME</span>
+          <button className="btn">Deposit</button>
+          <span>BALANCE: ZAR0.00</span>
+        </div>
       </nav>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="header">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-3">
+              <div className="layer">
+                <img src="src/assets/slots.png" alt="" />
+                <div className="heading">
+                  <img src="src/assets/slotgames.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="layer">
+                <img src="src/assets/slots.png" alt="" />
+                <div className="heading">
+                  <img src="src/assets/newgames.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="layer">
+                <img src="src/assets/slots.png" alt="" />
+                <div className="heading">
+                  <img src="src/assets/livegamestext.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="layer">
+                <img src="src/assets/slots.png" alt="" />
+                <div className="heading">
+                  <img src="src/assets/aviatorspribe.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className="dark_border"></div>
+      <div className="box_container">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="item d-flex justify-content-center">
+                <img src="src/assets/Grand.svg" alt="" />
+                <div className="content">
+                  <img src="src/assets/grand_jackpot_header.png" alt="" />
+                  <p>3534 GVK</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-md-6 col-xs-6 text-center item">
+              <img src="src/assets/major_jackpot_frame.svg" alt="" />
+              <div className="content">
+                <img src="src/assets/major_jackpot_header.png" alt="" />
+                <p>3534 GVK</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-xs-6 text-center item">
+              <img src="src/assets/minor_jackpot_frame.svg" alt="" />
+              <div className="content">
+                <img src="src/assets/minor_jackpot_header.png" alt="" />
+                <p>3534 GVK</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-1 text-center item">
+              <img src="src/assets/mini_jackpot_frame.svg" alt="" />
+              <div className="content">
+                <img src="src/assets/mini_jackpot_header.png" alt="" />
+                <p>3534 GVK</p>
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-7 col-md-6 col-xs-6">
+                <div className="small-box row">
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-5 col-md-6 col-xs-6">
+                <img
+                  className="large-box"
+                  src="src/assets/SQUAREGOLDFRAME_1.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-5 col-md-6 col-xs-6">
+                <img className="" src="src/assets/goldframe-21.png" alt="" />
+              </div>
+              <div className="col-lg-7 col-md-6 col-xs-6">
+                <div className="small-box row">
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-xs-6">
+                    <img src="src/assets/goldframe_10.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }
