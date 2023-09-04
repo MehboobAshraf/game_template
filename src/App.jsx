@@ -78,21 +78,21 @@ function App() {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-6 col-xs-6 text-center item">
+            <div className="col-lg-4 col-md-4 col-xs-6 text-center item">
               <img src="src/assets/major_jackpot_frame.svg" alt="" />
               <div className="content">
                 <img src="src/assets/major_jackpot_header.png" alt="" />
                 <p>3534 GVK</p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-xs-6 text-center item">
+            <div className="col-lg-4 col-md-4 col-xs-6 text-center item">
               <img src="src/assets/minor_jackpot_frame.svg" alt="" />
               <div className="content">
                 <img src="src/assets/minor_jackpot_header.png" alt="" />
                 <p>3534 GVK</p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-1 text-center item">
+            <div className="col-lg-4 col-md-4 text-center item">
               <img src="src/assets/mini_jackpot_frame.svg" alt="" />
               <div className="content">
                 <img src="src/assets/mini_jackpot_header.png" alt="" />
